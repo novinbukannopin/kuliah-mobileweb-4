@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body class="bg-light bg-gradient">
+    <div class="container my-5">
+      <div class="col-sm-12 col-lg-5 col-md-8 mx-auto">
+        <div class="card border-0 mb-3 p-3">
+          <div class="row">
+            <div class="col-6">
+              <a href="" class="text-decoration-none text-success">Forms</a>
+            </div>
+            <div class="col-6">
+              <a href="" class="text-decoration-none text-success">Tabel</a>
+            </div>
+          </div>
+        </div>
+        <div class="card border-0">
+          <div class="card-header bg-success p-3">
+            <h5 class="card-title text-white">Form Pendaftaran Siswa</h5>
+          </div>
+          <div class="card-body">
+            <form>
+              <div class="mb-3">
+                <label for="" class="form-label">Email Address</label>
+                <input
+                  placeholder="email@email.email"
+                  type="email"
+                  class="form-control"
+                />
+              </div>
+              <div class="mb-3">
+                <label for="" class="form-label">Tempat / Tanggal Lahir</label>
+                <div class="row">
+                  <div class="col-6">
+                    <input type="text" class="form-control" />
+                  </div>
+                  <div class="col-6">
+                    <input type="date" class="form-control" />
+                  </div>
+                </div>
+              </div>
+              <div class="mb-3">
+                <label for="" class="form-label">Agama</label>
+                <select name="" id="" class="form-select">
+                  <option selected>Open to select agama</option>
+                  <option value="islam">Islam</option>
+                  <option value="kristen">Kristen</option>
+                  <option value="budha">Budha</option>
+                  <option value="Hindu">Hindu</option>
+                </select>
+              </div>
+              <div class="mb-3">
+                <label for="" class="form-label">Alamat</label>
+                <textarea
+                  name=""
+                  id=""
+                  cols="30"
+                  rows="3"
+                  class="form-control"
+                ></textarea>
+              </div>
+              <div class="mb-3">
+                <label for="number" class="form-label">No. HP</label>
+                <input
+                  type="number"
+                  name=""
+                  id=""
+                  max="13"
+                  class="form-control"
+                />
+              </div>
+              <div class="mb-3">
+                <label for="radiocheck" class="form-label">Jenis Kelamin</label>
+                <div class="row">
+                  <div class="w-auto">
+                    <div class="form-check">
+                      <input
+                        type="radio"
+                        class="form-check-input"
+                        name="radiocheck"
+                        id="radiocheck1"
+                      />
+                      <label for="radiocheck1" class="form-check-label"
+                        >Laki-laki</label
+                      >
+                    </div>
+                  </div>
+                  <div class="w-auto">
+                    <div class="form-check">
+                      <input
+                        type="radio"
+                        class="form-check-input"
+                        name="radiocheck"
+                        id="radiocheck2"
+                      />
+                      <label for="radiocheck2" class="form-check-label"
+                        >Perempuan</label
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="mb-3">
+                <label for="hobischeck" class="form-label">Hobi</label>
+                <div class="row">
+                  <div class="w-auto">
+                    <input
+                      type="checkbox"
+                      class="form-check-input"
+                      name="hobischeck"
+                      id="membaca"
+                    />
+                    <label for="membaca" class="form-check-label"
+                      >Membaca</label
+                    >
+                  </div>
+                  <div class="w-auto">
+                    <input
+                      type="checkbox"
+                      class="form-check-input"
+                      name="hobischeck"
+                      id="menulis"
+                    />
+                    <label for="menulis" class="form-check-label"
+                      >Menulis</label
+                    >
+                  </div>
+                  <div class="w-auto">
+                    <input
+                      type="checkbox"
+                      class="form-check-input"
+                      name="hobischeck"
+                      id="berenang"
+                    />
+                    <label for="berenang" class="form-check-label"
+                      >Berenang</label
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="">
+                <label for="" class="form-label">Pas Foto</label>
+                <input type="file" class="form-control" />
+              </div>
+            </form>
+          </div>
+          <div class="card-footer">
+            <a href="#" class="btn btn-primary pull-right">Submit</a>
+          </div>
+        </div>
+      </div>
+      <div class="container mt-5">
+        <table class="table table-striped table-bordered">
+          <thead class="">
+            <tr>
+              <th
+                scope="col"
+                rowspan="2"
+                class="align-middle text-center justify-content-center"
+              >
+                Name
+              </th>
+              <th scope="col" colspan="2" class="text-center">Lahir</th>
+              <th scope="col" rowspan="2" class="align-middle text-center">
+                No. Telp
+              </th>
+              <th scope="col" rowspan="2" class="align-middle text-center">
+                Agama
+              </th>
+            </tr>
+            <tr>
+              <th scope="col">Tempat</th>
+              <th scope="col">Tanggal</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td scope="row" class="text-center">1</td>
+              <td class="">Mark</td>
+              <td class="">Otto</td>
+              <td class="text-center">@mdo</td>
+              <td class="text-center">@mdo</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
